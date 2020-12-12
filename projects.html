@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="nitish.css">
+    <title>NITISH ARYA</title>
+</head>
+<body>
+    <header>
+        <img src="nitish.jpg" alt="nitish arya" width="150px" height="150px">
+        <h1>Projects</h1>
+</header>
+<ul id="nav">
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><a id="G" href="projects.html">PROJECTS</a></li>
+    <li><a href="education.html">EDUCATION</a></li>
+    <li><a href="index.html">ABOUT</a></li>
+</ul>
+<ul >
+    <li><a id="D" href="https://rslt.duresult.in/Students/Combine_GradeCard.aspx" onclick="myfunctionD()">Digital Image Processing</a></li>
+    <li><a id="A" href="https://rslt.duresult.in/Students/Combine_GradeCard.aspx"onclick="myfunctionA()">Artifical Intelligence</a></li>
+    <li><a id="C" href="https://rslt.duresult.in/Students/Combine_GradeCard.aspx" onclick="myfunctionC()">Compiler Design</a></li>
+</ul>
+
+<iframe name="frame_a" src="projectlist.html" title="forexamole">
+</iframe>
+<script>
+    function myfunctionD(){
+    document.getElementById("D").setAttribute("target","frame_a");
+    }
+    function myfunctionA(){
+    document.getElementById("A").setAttribute("target","frame_a");
+    }
+    function myfunctionC(){
+    document.getElementById("C").setAttribute("target","frame_a");
+    }
+</script>
+<footer>
+    &copy All Right Reserved 2020.
+</footer>
+
+</body>
+</html>
